@@ -2,48 +2,44 @@
 
 ## Ресурс для изучения React.js и связанных с ним технологий на русском языке :ru:
 
-> Последнее обновление: 19.03.2021 - добавил руководство по `React Query` и проект `React Social App`
+> Последнее обновление: 01.04.2021 - добавил руководство по `React Spring`
 
 - :page_with_curl: [Вопросы для подготовки к собеседованию. Версия 1](./md/questions.md)
 - :page_with_curl: [Вопросы для подготовки к собеседованию. Версия 2](./md/questions-v2.md)
-- :memo: [Шпаргалки по React, Jest, Redux и лучшие практики по использованию React](./md/cheatsheets-bestpractices.md)
+- :memo: [Шпаргалки по React, Jest, Redux и лучшие практики по React](./md/cheatsheets-bestpractices.md)
 
 ---
 
-- :memo: [Шпагралка по хукам](./md/hooks.md)
+- :memo: [Шпаргалка по хукам](./md/hooks.md)
 - :memo: [Шпаргалка по `Create React App`](./md/create-react-app.md)
 - :page_with_curl: [Руководство по `Redux Toolkit`](./md/redux-toolkit.md)
 - :page_with_curl: [Руководство по `React Router`](./md/react-router.md)
 - :page_with_curl: [Руководство по `Recoil`](./md/recoil.md)
 - :page_with_curl: [Руководство по `React Query`](./md/react-query.md)
-- :memo: [Шпагралка по `Styled Components`](./md/styled-components.md)
+- :page_with_curl: [Руководство по `React Spring`](./md/react-spring.md)
+- :memo: [Шпаргалка по `Styled Components`](./md/styled-components.md)
 
 ---
 
-- :memo: [Шпагралка по `Webpack` и пример конфигурации для JS/React/TS проектов](./md/webpack.md)
-- :page_with_curl: [Руководство по работе с библиотекой `Socket.IO` и примеры ее использования](./md/socket/README.md)
-- :memo: [Шпаргалка по работе с библиотекой `JSON Server` и пример ее использования](./md/json-server/README.md)
+- :page_with_curl: [Руководство по `Mongoose`](./md/mongoose.md)
+- :page_with_curl: [Руководство по `Socket.IO`](./md/socket/README.md)
+- :memo: [Шпаргалка по `Webpack`](./md/webpack.md)
 - :memo: [Шпаргалка по `Axios`](./md/axios.md)
+- :memo: [Шпаргалка по `JSON Server`](./md/json-server/README.md)
+- :memo: [Шпаргалка по `JSON Web Token`](./md/jsonwebtoken.md)
 - :memo: [Шпаргалка по `Markdown`](./md/markdown.md)
 
 ---
 
-### Проекты
+## Проекты
 
 - :link: [React Social App](https://github.com/harryheman/React-Social-App)
-
-## Публикации
-
-- :link: [React: основные подходы к управлению состоянием](https://habr.com/ru/post/546632/)
-- :link: [Разрабатываем чат на React с использованием Socket.IO](https://habr.com/ru/post/544046/)
-- :link: [5 подходов к стилизации React-компонентов на примере одного приложения](https://habr.com/ru/post/542630/)
-- :link: [React за 60 секунд: валидация формы](https://habr.com/ru/post/540462/)
+- :link: [React Chat App](https://github.com/harryheman/React-Projects/react-chat)
+- :link: [React Budget App](https://github.com/harryheman/React-Projects/budget-app)
 
 ---
 
-## Источники
-
-### Официальная ресурсы
+## Источники и полезные ссылки
 
 - [React](https://ru.reactjs.org/)
 - [React Router](https://reactrouter.com/)
@@ -51,26 +47,54 @@
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Recoil](https://recoiljs.org/)
 - [React Query](https://react-query.tanstack.com/)
-- [Create React App](https://create-react-app.dev/)
+- [React Spring](https://www.react-spring.io/)
 - [React Native](https://reactnative.dev/)
 - [Gatsby](https://www.gatsbyjs.com/)
 - [Next](https://nextjs.org/)
+- [Create React App](https://create-react-app.dev/)
+- [Styled Components](https://styled-components.com/)
 
 ---
 
+- [Mongoose](https://mongoosejs.com/)
 - [Webpack](https://webpack.js.org/)
+- [Socket.IO](https://socket.io/)
 
 ### Библиотеки
 
-- [Styled Components](https://styled-components.com/)
-- [Socket.IO](https://socket.io/)
-- [JSON Server](https://github.com/typicode/json-server)
-- [Axios](https://github.com/axios/axios)
+- [Material UI](https://material-ui.com/ru/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [Все классы Bootstrap 4](https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp)
+- [Semantic UI React](https://react.semantic-ui.com/)
+- [React Hook Form - валидация форм](https://react-hook-form.com/ru/)
+- [React Snap - предварительный рендеринг страниц для SPA](https://github.com/stereobooster/react-snap)
+- [React Icons - самая большая коллекция компонентов-иконок](https://react-icons.github.io/react-icons/)
+- [React Search Input](https://www.npmjs.com/package/react-search-input)
+- [Emoji Mart - компонент с эмоджи](https://github.com/missive/emoji-mart)
+- [React Loader Spinner](https://www.npmjs.com/package/react-loader-spinner)
+- [React Burger Menu](https://www.npmjs.com/package/react-burger-menu)
+- [React Timeago - форматирование даты и времени](https://www.npmjs.com/package/react-timeago)
+- [React Beautiful DnD - перетаскивание компонентов](https://github.com/vtereshyn/react-beautiful-dnd-ru)
+- [React Copy To Clipboard](https://www.npmjs.com/package/react-copy-to-clipboard)
+
+---
+
+- [Axios - библиотека для выполнения HTTP-запросов](https://github.com/axios/axios)
+- [JSON Server - библиотека для создания fake REST API](https://github.com/typicode/json-server)
+- [JSON Web Token - библиотека для создания и подтверждения токенов](https://github.com/auth0/node-jsonwebtoken)
+- [Express Validator](https://express-validator.github.io/docs/)
+- [Validator.js](https://github.com/validatorjs/validator.js)
+- [Express Session](https://www.npmjs.com/package/express-session)
+- [Connect Mongo](https://www.npmjs.com/package/connect-mongo)
+- [Supervisor - утилита для запуска сервера для разработки](https://www.npmjs.com/package/supervisor)
+- [Nanoid - утилита для генерации идентификаторов](https://www.npmjs.com/package/nanoid)
+- [Concurrently - утилита для одновременного выполнения нескольких команд в `package.json`](https://www.npmjs.com/package/concurrently)
 
 ### Другое
 
 - [Источник вопросов по React. Версия 1](https://github.com/sudheerj/reactjs-interview-questions)
 - [Источник вопросов по React. Версия 2, а также шпаргалок по React, Jest, Redux и лучших практик](https://github.com/learning-zone/react-interview-questions)
+- [Awesome React Hooks - самая большая коллекция кастомных хуков](https://github.com/rehooks/awesome-react-hooks)
 
 ---
 
